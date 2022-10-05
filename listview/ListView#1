@@ -1,0 +1,101 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        //color: Colors.amber,
+        home: Scaffold(
+      appBar: AppBar(
+        title: Text("udaykiran9147"),
+      ),
+      body: ListView(
+        padding: EdgeInsets.all(12),
+        children: <Widget>[
+          Container(
+            //            child: Center(child: Text("Container child center color height",style:TextStyle(color:Colors.white,fontStyle:FontStyle.italic,fontWeight:FontWeight.bold))),
+
+            child: Center(
+                child: Text("Container child center color height",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold))),
+            color: Colors.red,
+            height: 100,
+          ),
+          Container(
+            child: Center(
+                child: Text(
+              "Container child center color height",
+              style: TextStyle(
+                color: Colors.white,
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.bold,
+              ),
+            )),
+            color: Colors.orange,
+            height: 100,
+          ),
+          Container(
+            child: Padding(
+              padding: const EdgeInsets.all(8),
+              child: Center(
+                  child: Text("Container child center color height",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.bold))),
+            ),
+            color: Colors.amber,
+            height: 100,
+          ),
+          Container(
+            child: Center(
+                child: Text("Container child center color height",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold))),
+            color: Colors.blueGrey,
+            height: 100,
+          ),
+          Container(
+            child: Center(
+                child: Text("Container child center color height",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold))),
+            color: Colors.indigo,
+            height: 100,
+          ),
+        ],
+      ),
+    ));
+  }
+}
+
+// class MyHomePage extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//         appBar: AppBar(
+//           title: Text("My Expense"),
+//         ),
+//         body: Column(
+//           children: <Widget>[
+//             Card(
+//               child: Text("chart"),
+//             ),
+//             Card(
+//               child: Text("List of Expense"),
+//             )
+//           ],
+//         ));
+//   }
+// }
