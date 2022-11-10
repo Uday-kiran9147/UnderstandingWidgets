@@ -1,1 +1,19 @@
-RotatingIconButton: https://pub.dev/packages/rotating_icon_button.
+RotatingIconButton: https://pub.dev/packages/rotating_icon_button
+
+*********************************************************************************************************************************
+ElevatedButton: https://api.flutter.dev/flutter/material/ElevatedButton-class.html
+const ElevatedButton({
+  super.key,
+  required super.onPressed,
+  super.onLongPress,
+  super.onHover,
+  super.onFocusChange,
+  super.style,
+  super.focusNode,
+  super.autofocus = false,
+  super.clipBehavior = Clip.none,
+  super.statesController,
+  required super.child,
+});
+***********************************************************************************************************************************
+TextButton: https://api.flutter.dev/flutter/material/TextButton-class.html
