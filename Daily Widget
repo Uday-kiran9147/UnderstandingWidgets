@@ -19,3 +19,11 @@ const ElevatedButton({
 TextButton: https://api.flutter.dev/flutter/material/TextButton-class.html
 
 onPressed:  https://www.woolha.com/tutorials/flutter-using-elevatedbutton-widget-examples
+
+GridView:   https://api.flutter.dev/flutter/widgets/GridView-class.html
+- GridView.builder. infinity.
+- .count
+- .extent
+- .costum
+- .builder
+
