@@ -17,8 +17,6 @@ class MyApp extends StatelessWidget {
         padding: EdgeInsets.all(12),
         children: <Widget>[
           Container(
-            //            child: Center(child: Text("Container child center color height",style:TextStyle(color:Colors.white,fontStyle:FontStyle.italic,fontWeight:FontWeight.bold))),
-
             child: Center(
                 child: Text("Container child center color height",
                     style: TextStyle(
@@ -80,22 +78,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// class MyHomePage extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//         appBar: AppBar(
-//           title: Text("My Expense"),
-//         ),
-//         body: Column(
-//           children: <Widget>[
-//             Card(
-//               child: Text("chart"),
-//             ),
-//             Card(
-//               child: Text("List of Expense"),
-//             )
-//           ],
-//         ));
-//   }
-// }
